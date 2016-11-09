@@ -22,12 +22,13 @@ class Computer {
     public int play(int stick, int[] choice, int lv){
         switch(lv){
             case 1:
-                
+
                 break;
             case 2:
                 break;
             case 3:
                 break;
         }
+        return 0;
     }
 }

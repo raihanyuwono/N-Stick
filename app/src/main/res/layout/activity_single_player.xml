@@ -9,16 +9,28 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/relative_single"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
-        android:gravity="center">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
         <TextView
+            android:id="@+id/single_stick"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:background="@drawable/frame_circle"
             android:backgroundTint="#e0556bcc"
-            />
+            android:layout_marginTop="80dp"
+            android:textSize="75sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"/>
     </LinearLayout>
 
     <LinearLayout

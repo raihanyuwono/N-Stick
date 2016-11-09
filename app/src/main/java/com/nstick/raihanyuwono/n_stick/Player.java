@@ -12,6 +12,10 @@ public class Player {
         this.win = 0;
         this.lose = 0;
     }
+    public String getName(){
+        return this.name;
+    }
+
     public void setWin(){
         this.win++;
     }

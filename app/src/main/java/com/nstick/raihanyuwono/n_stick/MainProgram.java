@@ -5,14 +5,26 @@ package com.nstick.raihanyuwono.n_stick;
  */
 
 public class MainProgram {
-    public static Computer com = new Computer();
-    public static Player user;
+    private static Computer com = new Computer();
+    private static Player user;
 
     public static void play(int lv, int type){
 
     }
 
+    public static int getComLv(){
+        return com.getLv();
+    }
+
+    public static void setComLv(int lv){
+        com.setLv(lv);
+    }
+
     public static void newPlayer(String name){
         user = new Player(name);
+    }
+
+    public static String getNamePlayer(){
+        return user.getName();
     }
 }

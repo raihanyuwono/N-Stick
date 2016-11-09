@@ -22,25 +22,25 @@
         android:padding="16dp">
         <Button
             android:id="@+id/single_player"
-            android:text="SINGLE PLAYER"
+            android:text="@string/single_player"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/multiplayer"
-            android:text="MULTIPLAYER"
+            android:text="@string/multiplayer"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/setting"
-            android:text="SETTING"
+            android:text="@string/setting"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/exit"
-            android:text="EXIT"
+            android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>

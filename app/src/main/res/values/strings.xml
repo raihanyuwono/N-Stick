@@ -5,4 +5,8 @@
     <string name="hard">HARD</string>
     <string name="difficulties">DIFFICULTIES</string>
     <string name="main_menu">MAIN MENU</string>
+    <string name="setting">SETTING</string>
+    <string name="exit">EXIT</string>
+    <string name="multiplayer">MULTIPLAYER</string>
+    <string name="single_player">SINGLE PLAYER</string>
 </resources>

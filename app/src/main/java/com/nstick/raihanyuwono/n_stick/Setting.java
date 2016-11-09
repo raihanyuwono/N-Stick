@@ -17,7 +17,7 @@ public class Setting extends AppCompatActivity {
         final Button hard = (Button) findViewById(R.id.dif_hard);
         Button backToMenu = (Button) findViewById(R.id.backToMenu);
 
-        switch (MainProgram.com.getLv()){
+        switch (MainProgram.getComLv()){
             case 1: easy.setEnabled(false);
                 break;
             case 2: medium.setEnabled(false);
@@ -25,11 +25,11 @@ public class Setting extends AppCompatActivity {
             case 3: hard.setEnabled(false);
                 break;
         }
-    
+
         easy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainProgram.com.setLv(1);
+                MainProgram.setComLv(1);
                 activateButton(easy, medium, hard);
                 easy.setEnabled(false);
             }
@@ -37,7 +37,7 @@ public class Setting extends AppCompatActivity {
         medium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainProgram.com.setLv(2);
+                MainProgram.setComLv(2);
                 activateButton(easy, medium, hard);
                 medium.setEnabled(false);
             }
@@ -45,7 +45,7 @@ public class Setting extends AppCompatActivity {
         hard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainProgram.com.setLv(3);
+                MainProgram.setComLv(3);
                 activateButton(easy, medium, hard);
                 hard.setEnabled(false);
             }
