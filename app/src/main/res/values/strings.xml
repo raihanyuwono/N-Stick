@@ -9,4 +9,6 @@
     <string name="exit">EXIT</string>
     <string name="multiplayer">MULTIPLAYER</string>
     <string name="single_player">SINGLE PLAYER</string>
+    <string name="player_1">PLAYER 1</string>
+    <string name="player_2">PLAYER 2</string>
 </resources>

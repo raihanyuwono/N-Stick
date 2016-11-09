@@ -14,7 +14,6 @@ public class SinglePlayer extends AppCompatActivity {
         TextView player_name = (TextView) findViewById(R.id.player_name);
         TextView stick = (TextView) findViewById(R.id.single_stick);
 
-        player_name.setText(MainProgram.getNamePlayer());
-        stick.setText("");
+//        player_name.setText(MainProgram.getNamePlayer());
     }
 }

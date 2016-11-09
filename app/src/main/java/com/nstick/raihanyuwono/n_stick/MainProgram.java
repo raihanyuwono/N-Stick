@@ -5,6 +5,7 @@ package com.nstick.raihanyuwono.n_stick;
  */
 
 public class MainProgram {
+
     private static Computer com = new Computer();
     private static Player user;
 

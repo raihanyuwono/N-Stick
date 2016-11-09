@@ -65,6 +65,7 @@ public class MainMenu extends AppCompatActivity {
 
         if(prefs.getBoolean("firstrun", true)){
             MainProgram.setComLv(1);
+//            inputName();
             prefs.edit().putBoolean("firstrun", false).commit();
         }
     }
